@@ -1,4 +1,4 @@
-package com.chocod.pagination.paginator;
+package com.chocod.pagination.ibatis.paginator;
 
 import java.lang.reflect.Constructor;
 import java.util.List;
@@ -27,12 +27,12 @@ import org.apache.ibatis.session.RowBounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.chocod.pagination.paginator.dialect.Dialect;
-import com.chocod.pagination.paginator.domain.PageBounds;
-import com.chocod.pagination.paginator.domain.PageList;
-import com.chocod.pagination.paginator.domain.Paginator;
-import com.chocod.pagination.paginator.support.PropertiesHelper;
-import com.chocod.pagination.paginator.support.SQLHelp;
+import com.chocod.pagination.ibatis.paginator.dialect.Dialect;
+import com.chocod.pagination.ibatis.paginator.domain.PageBounds;
+import com.chocod.pagination.ibatis.paginator.domain.PageList;
+import com.chocod.pagination.ibatis.paginator.domain.Paginator;
+import com.chocod.pagination.ibatis.paginator.support.PropertiesHelper;
+import com.chocod.pagination.ibatis.paginator.support.SQLHelp;
 
 /**
  * 为MyBatis提供基于方言(Dialect)的分页查询的插件

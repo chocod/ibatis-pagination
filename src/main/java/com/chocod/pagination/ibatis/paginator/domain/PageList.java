@@ -1,4 +1,4 @@
-package com.chocod.pagination.paginator.domain;
+package com.chocod.pagination.ibatis.paginator.domain;
 
 import java.util.ArrayList;
 import java.util.Collection;

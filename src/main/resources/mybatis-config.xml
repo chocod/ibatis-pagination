@@ -4,8 +4,8 @@
 <configuration>
 
 	<plugins>
-		<plugin interceptor="com.fnyx.picking.common.base.paginator.PageInterceptor">
-			<property name="dialectClass" value="com.fnyx.picking.common.base.paginator.dialect.MySQLDialect" />
+		<plugin interceptor="com.chocod.pagination.ibatis.paginator.PageInterceptor">
+			<property name="dialectClass" value="com.chocod.pagination.ibatis.paginator.dialect.MySQLDialect" />
 		</plugin>
 	</plugins>
 	

@@ -1,4 +1,4 @@
-package com.chocod.pagination.paginator.support;
+package com.chocod.pagination.ibatis.paginator.support;
 
 import java.util.HashSet;
 import java.util.LinkedList;

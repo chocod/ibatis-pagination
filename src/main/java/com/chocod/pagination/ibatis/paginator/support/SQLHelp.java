@@ -1,4 +1,4 @@
-package com.chocod.pagination.paginator.support;
+package com.chocod.pagination.ibatis.paginator.support;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,7 +12,7 @@ import org.apache.ibatis.transaction.Transaction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.chocod.pagination.paginator.dialect.Dialect;
+import com.chocod.pagination.ibatis.paginator.dialect.Dialect;
 
 /**
  * SQL帮助类

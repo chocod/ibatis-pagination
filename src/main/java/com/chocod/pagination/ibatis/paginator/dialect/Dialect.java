@@ -1,4 +1,4 @@
-package com.chocod.pagination.paginator.dialect;
+package com.chocod.pagination.ibatis.paginator.dialect;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,8 +14,8 @@ import org.apache.ibatis.reflection.wrapper.BeanWrapper;
 import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.type.TypeHandlerRegistry;
 
-import com.chocod.pagination.paginator.domain.Order;
-import com.chocod.pagination.paginator.domain.PageBounds;
+import com.chocod.pagination.ibatis.paginator.domain.Order;
+import com.chocod.pagination.ibatis.paginator.domain.PageBounds;
 
 /**
  * 类似HIBERNATE的Dialect,但只精简出分页部分

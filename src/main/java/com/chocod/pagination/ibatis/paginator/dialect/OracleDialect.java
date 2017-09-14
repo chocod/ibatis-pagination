@@ -1,8 +1,8 @@
-package com.chocod.pagination.paginator.dialect;
+package com.chocod.pagination.ibatis.paginator.dialect;
 
 import org.apache.ibatis.mapping.MappedStatement;
 
-import com.chocod.pagination.paginator.domain.PageBounds;
+import com.chocod.pagination.ibatis.paginator.domain.PageBounds;
 
 /**
  * Oracle分页方言(mybatis-config.xml中配置)
