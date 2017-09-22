@@ -1,6 +1,8 @@
 # ibatis-pagination
 ibatis的分页实现
 
+项目引入该jar包后，在mybatis的configLocation中配置如下，即可使用分页。具体调用方式如下：
+
 
 
 #配置引入 configLocation文件#
